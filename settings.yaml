@@ -9,4 +9,4 @@ group_1:
   list_type: group
   default: ""
   description:
-    en: "Display menu section 1 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
+    en: "Use font color for these groups only."
