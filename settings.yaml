@@ -1,0 +1,12 @@
+color_1:
+  type: string
+  default: ""
+  description:
+    en: "font color for this group. Use Discourse theme color variables, color names or hexadecimal codes."
+
+group_1:
+  type: list
+  list_type: group
+  default: ""
+  description:
+    en: "Display menu section 1 for these groups only - list group names, case-sensitive. Group visibilty must be set to Everyone in the group interaction settings."
