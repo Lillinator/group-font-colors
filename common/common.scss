@@ -4,7 +4,9 @@
 $list_1: str-to-list("#{$group_1}", "|");
 
 @each $group1 in $list_1 {
-    body.group-#{$group1} .names>span a {
-         color: $color_1;
+    body.group-#{$group1} {
+        .names>span a {
+          color: $color_1;
+        }
     }
 }
