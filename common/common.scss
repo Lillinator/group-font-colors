@@ -1,11 +1,10 @@
 @import "str-to-list";
 
 
-$list_1: str-to-list("#{$group_font_color_1}", "|");
+$list_1: str-to-list("#{$group_1}", "|");
 
 @each $group1 in $list_1 {
     body.group-#{$group1} {
-         color: $color1;
+         color: $color_1;
     }
 }
-
